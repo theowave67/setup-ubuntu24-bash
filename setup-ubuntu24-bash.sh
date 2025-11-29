@@ -57,7 +57,7 @@ alias tldr='tldr --color=always'
 
 eval "$(zoxide init bash)"
 eval "$(starship init bash)"
-command -v atuin >/dev/null && eval "$(atuin init bash)"
+command -v ~/.atuin/bin/atuin >/dev/null && eval "$(~/.atuin/bin/atuin init bash)"
 
 # ==================== 结束 ====================
 EOF
